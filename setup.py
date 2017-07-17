@@ -10,7 +10,7 @@ setup(
     author_email='galit.cohen.kerner@gmail.com',
     entry_points={
         'console_scripts': [
-            'tryexcept=tryexcept:main',
+            'tryexcept=.tryexcept:main',
         ]
     },
     #license='Apache2',
