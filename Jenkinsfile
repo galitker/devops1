@@ -1,14 +1,10 @@
 pipeline {
-  agent {
-    node {
-      label 'docker-jenkins-slave'
-    }
-    
-  }
+  agent any
   stages {
     stage('galit') {
       steps {
         echo 'hello'
+        echo 'Hi'
       }
     }
   }
